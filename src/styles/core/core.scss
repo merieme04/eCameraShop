@@ -1,0 +1,61 @@
+// Import core styles
+@use "./reset" as *;
+@use "./utils/" as *;
+
+@use "./header";
+@use "./mobile-menu";
+//home
+@use "./banner";
+@use "./home-banner";
+@use "./protected-area";
+@use "./section-title";
+@use "./products";
+@use "./discount-area";
+@use "./news-letter";
+@use "./company-area";
+
+// login and regiser
+@use "./register";
+@use "./activation-email";
+
+// cart
+@use "./cart";
+
+@use "./checkout";
+
+// footer
+@use "./footer";
+
+// not found page
+@use "./not-found";
+
+// user dashboard
+@use "./sidebar";
+@use "./my-orders";
+@use "./order-details";
+
+// both user and admin dashboard use
+@use "./profile";
+
+// admin dashboard
+@use "./user-list-item";
+
+@use "./add-product";
+
+@use "./all-products";
+
+@use "./product-detail";
+@use "./process-order";
+@use "./home-admin";
+
+@use "./chart";
+
+// loader
+@use "./loader";
+
+//
+@use "./checkout-payment";
+
+//
+
+@use "./contact";
